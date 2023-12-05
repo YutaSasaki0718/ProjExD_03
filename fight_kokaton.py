@@ -171,9 +171,7 @@ def main():
     # BombインスタンスがNUM個並んだリスト
     bombs = [Bomb() for _ in range(NUM_OF_BOMBS)]  
     beam = None
-
     score = Score()
-
     clock = pg.time.Clock()
     tmr = 0
     while True:
